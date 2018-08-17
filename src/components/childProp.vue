@@ -14,12 +14,7 @@ export default{
   components: {
     'child-component': {
       props: ['str'],
-      template: '<p>{{str}}</p>',
-      data: function () {
-        return {
-          msg: 'child component 111111'
-        }
-      }
+      template: '<p>{{str}}</p>'
     }
   }
 }

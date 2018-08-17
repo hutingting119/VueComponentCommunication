@@ -3,7 +3,8 @@
     <!--<parentTem></parentTem>-->
     <!--<parentRef></parentRef>-->
     <!--<parentChild></parentChild>-->
-    <childProp></childProp>
+    <!--<childProp></childProp>-->
+    <childParent></childParent>
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import parentTem from './parentTem.vue'
 import parentRef from './parentRef.vue'
 import parentChild from './parentChild.vue'
 import childProp from './childProp.vue'
+import childParent from './childParent.vue'
 export default {
   name: 'HelloWorld',
   components: {
     parentTem,
     parentRef,
     parentChild,
-    childProp
+    childProp,
+    childParent
   }
 }
 </script>
