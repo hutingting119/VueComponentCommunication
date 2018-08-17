@@ -4,7 +4,8 @@
     <!--<parentRef></parentRef>-->
     <!--<parentChild></parentChild>-->
     <!--<childProp></childProp>-->
-    <childParent></childParent>
+    <!--<childParent></childParent>-->
+    <parentModel></parentModel>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import parentRef from './parentRef.vue'
 import parentChild from './parentChild.vue'
 import childProp from './childProp.vue'
 import childParent from './childParent.vue'
+import parentModel from './parentModel.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -21,7 +23,8 @@ export default {
     parentRef,
     parentChild,
     childProp,
-    childParent
+    childParent,
+    parentModel
   }
 }
 </script>
